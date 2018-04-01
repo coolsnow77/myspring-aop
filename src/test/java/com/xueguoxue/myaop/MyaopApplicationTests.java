@@ -85,6 +85,13 @@ public class MyaopApplicationTests {
     }
 
     @Test
+    public void getRecommends()
+    {
+        System.out.println("menu call:" + menuService.getRecommends());
+        System.out.println("menu call:" + menuService.getRecommends());
+    }
+
+    @Test
     public void testInsert() {
         Product product = new Product();
         product.setName("dell computer");
